@@ -33,4 +33,7 @@ in terminal...
 
 npm run build-css
 
-npx tailwind init --
+npx tailwind init
+
+npm install live-server -g
+to run use terminal and run live-server public (or folder name)
