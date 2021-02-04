@@ -1,0 +1,36 @@
+Install NPM
+===========
+
+mkdir tailwind-project
+cd tailwind-project
+
+Add folder to Code VSS or Sublime then in folder create:
+
+SRV and PUBLIC 
+
+In SRC create file styles.css and add...
+
+/* Font Import - add fonts here before using tailwind.config.js */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+/* ./your-css-folder/styles.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+THEN
+
+npm install tailwindcss postcss-cli autoprefixer
+
+npm init -y
+
+In package.json replace the test script with... (note the -o is the output option
+
+"build-css": "tailwindcss build src/styles.css -o public/assets/css/styles.css"
+
+THEN
+
+in terminal...
+
+npm run build-css
+
+npx tailwind init --
