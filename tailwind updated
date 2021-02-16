@@ -1,0 +1,34 @@
+mkdir projectfolder
+cd project folder
+
+npm install autoprefixer
+npm install tailwindcss
+npm install live-server -G
+npm install postcss-cli
+
+npm init -y
+npx tailwind -init
+
+##
+in package.json replace or add in the script section...
+
+"build-css": "tailwindcss build src/styles.css -o public/assets/css/styles.css"
+
+You can modify the src and -o (output) as required
+
+##
+
+mkdir src
+mkdir public
+
+##
+cd src and make file styles.css and add
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+save.
+##
+
+npm run buld-css
