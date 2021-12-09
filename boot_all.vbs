@@ -1,18 +1,18 @@
 Set WshShell = WScript.CreateObject("WScript.Shell")
 REM WScript.Echo "Running Boot Sequence"
-WshShell.Run ("git clone https://github.com/Kjarr/ts_start.git")
+WshShell.Run ("git clone https://github.com/xxx/xxx.git")
 REM WScript.Echo "Boot Initalised"
 WScript.sleep 5000
-WshShell.CurrentDirectory = "C:\Users\CITB\Desktop\Systems\Automate\ts_start\"
+WshShell.CurrentDirectory = "C:\Users\xxx\Desktop\Systems\Automate\xxx\"
 REM WScript.Echo "Directory Changed"
 WScript.sleep 5000
-WshShell.Run ("C:\Users\CITB\Desktop\Systems\Automate\ts_start\start_all.vbs")
+WshShell.Run ("C:\Users\xxx\Desktop\Systems\Automate\xxx\xxx.vbs")
 REM WScript.Echo "Script Activated"
 WScript.sleep 10000
-WshShell.CurrentDirectory = "C:\Users\CITB\Desktop\Systems\Automate\"
+WshShell.CurrentDirectory = "C:\Users\xxx\Desktop\Systems\Automate\"
 REM WScript.Echo "Directory Reverted"
 WScript.sleep 5000
-strPath = "C:\Users\CITB\Desktop\Systems\Automate\ts_start"
+strPath = "C:\Users\xxx\Desktop\Systems\Automate\xxx"
 
 DeleteFolder strPath
 
