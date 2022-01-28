@@ -1,0 +1,47 @@
+HTML Setup
+==========
+
+go into the public folder and add index.HTML
+then in that file (using vscode) type "doc" then tab to autofill
+
+Inside  index layout as per:
+
+    <div><!-- content wrapper -->
+
+        <div>
+            <nav>
+                <div>
+                    <h1>
+                    <a href="/">TEST</a>
+                    </h1>
+                </div>
+                <ul>
+                    <li>
+                        <a href="\">
+                        <span>Home</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="\">
+                        <span>Resources</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="\">
+                        <span>About</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="\">
+                        <span>Contact</span>
+                        </a>
+                    </li>                                                            
+                </ul>
+            </nav><!-- end nav -->
+        </div>
+
+        <main>
+            
+        </main>
+
+    </div>

@@ -1,0 +1,30 @@
+Install, setup and create base css
+==================================
+Download Node
+create and enter directory for site
+npm init -y
+npm install tailwindcss
+
+create src and public folders
+create styles.css in source and add the following lines...
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+(THIS IS ALSO WHERE WE ADD OUR OWN RULES?)
+===
+open package.json and replace:
+===
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+
+with:
+
+  "scripts": {
+    "build-css": "tailwindcss build src/styles.css -o public/styles.css"
+  },
+
+===
+npm run build-css
