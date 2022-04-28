@@ -1,2 +1,3 @@
-Try to eliminate Vulns.
+## Try to eliminate Vulns.
 npm install npm@latest -g
+npm audit
