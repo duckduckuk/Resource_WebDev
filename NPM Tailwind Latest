@@ -41,6 +41,8 @@ cd src and make file styles.css and add
 @tailwind components;
 @tailwind utilities;
 
+## Execute CSS script
+npm run build-css
 
 ## Options...
 npm install autoprefixer
