@@ -1,3 +1,17 @@
 ## Try to eliminate Vulns.
 npm install npm@latest -g
 npm audit
+
+## Install Tailwind
+npm install -D tailwindcss
+npx tailwindcss init
+
+## Edit Config
+## Add the paths to all of your template files in your eg...
+module.exports = {
+  content: ["./src/**/*.{html,js}"],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+}
